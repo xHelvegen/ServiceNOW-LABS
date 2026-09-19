@@ -2,7 +2,7 @@
 
 Community-built, hands-on labs organized by ServiceNow certification path. Start with **CSA** (Certified System Administrator); more paths to follow.
 
-**Site:** https://YOUR-ORG.github.io/servicenow-labs/
+**Site:** https://ADC-Cohorte.github.io/servicenow-labs/
 
 > Unofficial community project. Not affiliated with or endorsed by ServiceNow. See the [disclaimer](docs/disclaimer.md).
 
