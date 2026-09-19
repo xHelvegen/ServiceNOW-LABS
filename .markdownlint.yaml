@@ -1,0 +1,7 @@
+default: true
+MD013: false   # line length
+MD033: false   # inline HTML (needed for some Material features)
+MD041: false   # first line heading (front matter pages)
+MD024:
+  siblings_only: true
+MD046: false

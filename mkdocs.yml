@@ -1,0 +1,66 @@
+site_name: ServiceNow Labs by Certification Path
+site_description: Community-built, hands-on ServiceNow labs organized by certification path.
+site_url: https://YOUR-ORG.github.io/servicenow-labs/
+repo_url: https://github.com/YOUR-ORG/servicenow-labs
+repo_name: YOUR-ORG/servicenow-labs
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+    - content.action.edit
+    - content.code.copy
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: teal
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: teal
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+
+plugins:
+  - search
+  - tags
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+nav:
+  - Home: index.md
+  - Getting started:
+      - Set up your PDI: getting-started/pdi-setup.md
+  - CSA path:
+      - Overview & lab tracker: csa/index.md
+      - 1. Platform navigation:
+          - Navigate the UI and build a list filter: csa/01-platform-navigation/01-navigate-and-filter.md
+      - 2. Instance configuration: []
+      - 3. Collaboration: []
+      - 4. Self service & automation: []
+      - 5. Database & security: []
+      - 6. Data migration & integration: []
+  - Tags: tags.md
+  - Contributing: contributing.md
+  - Disclaimer: disclaimer.md
