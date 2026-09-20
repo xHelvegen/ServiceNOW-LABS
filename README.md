@@ -26,4 +26,4 @@ Then open http://127.0.0.1:8000
 
 ## License
 
-Content: CC BY-SA 4.0. Code and config: MIT. See [LICENSE](LICENSE).
+Content (docs/, templates/): CC BY-SA 4.0, see LICENSE-CONTENT. Code and configuration: MIT, see LICENSE.
